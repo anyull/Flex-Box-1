@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 228, 18)
+}
+
+.cajaAmarilla {
+    width: 2000px;
+    background-color: rgb(90, 134, 230)
+}
+
+@font-face {
+    font-family: lossimpson;
+    src: url(/flexbox1/fuentes/Simpsonfont.otf);
+}
+
+h1,h2 {
+    font-family: lossimpson;
+}
+                          
+.caja {
+    width: 400px;
+    height: 200px;
+    margin: 100px;
+    background-color: rgb(226, 231, 199);
+    background-image: url(imagenes/homero.png );
+    padding: 50px;
+    border: solid 3px rgb(231, 164, 39)
+}
